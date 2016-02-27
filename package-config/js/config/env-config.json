@@ -1,0 +1,18 @@
+{
+	"$LATEST":{
+  			"s3bucket": "mylatestbucket",
+  			"snstopic": "mylatesttopic"
+  	},
+	"DEV":{
+  			"s3bucket": "mydevbucket",
+  			"snstopic": "mydevtopic"
+  	},
+	"TEST":{
+  			"s3bucket": "mytestbucket",
+  			"snstopic": "myteststagetopic"
+	},
+	"PROD":{
+  			"s3bucket": "myprodbucket",
+  			"snstopic": "myprodtopic"
+  	}
+}    
