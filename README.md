@@ -5,6 +5,10 @@ Lambda environment config
 This repo has examples for configuring AWS Lambda functions. The examples use Lambda function
 versions and aliases to determine which config values to fetch (i.e. DEV, TEST, PROD).
 
+More details in the following post:
+
+https://www.concurrencylabs.com/blog/configure-your-lambda-function-like-a-champ-sail-smoothly/
+
 ### Store configuration files in S3 (s3-config folder)
 In this example, the Lambda function fetches config files from an S3 bucket defined
 in index.js. This bucket has one folder per stage (i.e. $LATEST, DEV, TEST, PROD) and
