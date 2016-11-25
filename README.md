@@ -1,4 +1,11 @@
 
+## NOTE: 
+
+The examples in this repo are no longer the best alternative to configure environments
+in Lambda. As of November 18th, 2016, the preferred method is to use <a href="http://docs.aws.amazon.com/lambda/latest/dg/env_variables.html" target="new">AWS Lambda Environment Variables</a> instead.
+
+
+
 Lambda environment config
 =========================
 
