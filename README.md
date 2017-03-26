@@ -1,10 +1,4 @@
 
-## NOTE: 
-
-The examples in this repo are no longer the best alternative to configure environments
-in Lambda. As of November 18th, 2016, the preferred method is to use <a href="http://docs.aws.amazon.com/lambda/latest/dg/env_variables.html" target="new">AWS Lambda Environment Variables</a> instead.
-
-
 
 Lambda environment config
 =========================
@@ -15,6 +9,13 @@ versions and aliases to determine which config values to fetch (i.e. DEV, TEST, 
 More details in the following post:
 
 https://www.concurrencylabs.com/blog/configure-your-lambda-function-like-a-champ-sail-smoothly/
+
+
+### Lambda Environment Variables
+
+In this example, the Lambda function gets config values from Lambda Environment Variables that
+are configured for the function itself. It gets the right value based on the current
+stage (DEV, TEST, PROD)
 
 ### Store configuration files in S3 (s3-config folder)
 In this example, the Lambda function fetches config files from an S3 bucket defined
